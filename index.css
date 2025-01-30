@@ -6,6 +6,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+.gcb2{
+    border-left: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.guide-container .dropdown-content {
+    padding-left: 40px;
+    border-left: none;
+}
+
 /* 🏛️ General Body Styling */
 body {
     background: #f8fbff;
@@ -133,4 +145,71 @@ ul li {
 .footer a:hover {
     color: #b0d4ff;
     text-decoration: underline;
+}
+
+/* 🟦 Guide Section Styling */
+.guide-container {
+    background: #f4f9ff; /* Soft blue background */
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #0077CC; /* Blue highlight on the left */
+}
+
+.guide-container h2 {
+    color: #005fa3;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.guide-container h3 {
+    color: #0077CC;
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.guide-container ul {
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.guide-container ul li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    list-style-type: "🔹 "; /* Subtle bullet point style */
+}
+
+/* Dropdown Button */
+.dropdown-btn {
+    background-color: #0077CC;
+    color: white;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.dropdown-btn:hover {
+    background-color: #005fa3;
+}
+
+/* Dropdown Content (Initially Hidden) */
+.dropdown-content {
+    display: none;
+    list-style-type: none;
+    padding: 15px;
+    margin-top: 10px;
+    background: #f4f9ff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #0077CC;
+}
+
+.dropdown-content li {
+    font-size: 1.1rem;
+    padding: 5px 0;
 }
